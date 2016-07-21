@@ -1,0 +1,151 @@
+.profile-picture{
+    border-radius: 50%;
+    max-width: 30%;
+    max-height: 50%;
+    margin: 10vh auto 0 auto;
+    display: block;
+    border-top: 2px solid #aaa;
+}
+
+body{
+    background: url(assets/cup-of-coffee-1280537_1920.jpg) no-repeat fixed;
+    background-size: cover;
+    -webkit- background-size: cover;
+    -moz- background-size: cover;
+    -o- background-size: cover;
+}
+
+.heading{
+    background-color: #FAFAD2;
+    margin: 20vh 50vh 0 50vh;
+    padding: 5vh 0;
+    border-radius: 10px 10px 0 0;
+    border-top: 3px solid #D8D8B0;
+}
+
+.projects h2, .work-experience h2, .hobbies h2, .see-more h2{
+    text-decoration: underline;
+    margin-bottom: 7vh;
+}
+
+.projects h4, .work-experience h4{
+    color: saddlebrown;
+}
+
+.projects h5, .work-experience h5{
+    margin-top: .5vh;
+    margin-bottom: .5vh;
+}
+
+.projects .project, .work-experience .job{
+    margin-bottom: 4vh;
+}
+
+.project:nth-of-type(even), .job:nth-of-type(even){
+    background-color: #FAFAD2; /* possibly azure*/
+}
+
+.work-experience a{
+    color: #222;
+}
+
+.hobbies img{
+    max-height: 10vh;
+    max-width: 10vh;
+    margin-bottom: 4vh;
+}
+
+.dark{
+    opacity: 0.8;
+}
+
+.medium{
+    opacity: 0.85;
+}
+
+.see-more img{
+    max-height: 20vh;
+    max-width: 20vh;
+}
+
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parallax-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.parallax-layer-2 {
+    transform: translateZ(-5px) scale(6);
+}
+
+.parallax-layer-3 {
+    transform: translateZ(-1px) scale(2);
+    margin-top: 30vh;
+    text-align: center;
+}
+
+.parallax-layer-4 {
+    transform: translateZ(0);
+    text-align: center;
+    background-color: white;
+    margin: 70vh 12vh 0 12vh;
+    padding: 5vh 0;
+    border-radius: 10px;
+    height: 245vh;
+    border-top: 4px solid #aaa;
+}
+
+img {
+    width: 100%;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Slabo 27px', serif;
+}
+
+.navbar-right li:hover {
+    background-color: #eee;
+}
+
+a:visited, a:target, a:hover, a:link, a:active{
+    text-decoration: none;
+}
+
+.contact{
+    text-align: center;
+    background-color: #FAFAD2;
+    margin: 20vh 50vh 0 50vh;
+    padding: 5vh 0;
+    border-radius: 10px 10px 10px 10px;
+    border-top: 3px solid #D8D8B0;
+}
+
+.contact h3{
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.contact .information p:first-of-type{
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.contact .information{
+    margin: 0;
+    padding: 0;
+}
