@@ -149,3 +149,82 @@ a:visited, a:target, a:hover, a:link, a:active{
     margin: 0;
     padding: 0;
 }
+
+.mobile {
+    text-align: center;
+    background-color: #FAFAD2;
+    margin: 20vh 5vh 0 5vh;
+    padding: 10vh 0;
+    border-radius: 10px 10px 10px 10px;
+    border-top: 3px solid #D8D8B0;
+}
+
+.mobile h2 {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1215px){
+    .heading {
+        margin: 20vh 30vh 0 30vh;
+    }
+    .parallax-layer-4 {
+        height: 260vh;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .contact{
+        margin: 20vh 40vh 0 40vh;
+    }
+}
+
+@media screen and (max-width: 1046px){
+    .parallax{
+        height: 109vh;
+    }
+    .parallax-layer-4 {
+        height: 270vh;
+    } 
+}
+
+@media screen and (max-width: 992px){
+    .parallax-layer-4 {
+        height: 280vh;
+    }
+    .contact{
+        margin: 20vh 30vh 0 30vh;
+    }
+}
+
+@media screen and (max-width: 970px){
+    .parallax-layer-4 {
+        height: 290vh;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .parallax-layer-4 {
+        height: 300vh;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .parallax{
+        height: 118vh;
+    }
+    .parallax-layer-4 {
+        height: 310vh;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .parallax-layer-4 {
+        height: 320vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .parallax-layer-4 {
+        height: 400vh;
+    }
+}
