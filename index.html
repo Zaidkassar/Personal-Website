@@ -24,6 +24,7 @@
             </div>
         </nav>
         
+        <!-- Parallax -->
         <div class="parallax hidden-xs">
             <div class="parallax-layer parallax-layer-profile-picture">
                 <img src="assets/personal-picture.jpg" class="profile-picture">
@@ -36,7 +37,6 @@
                         <h5>University of Toronto</h5>
                     </div>
                 </div>
-                
                 <div class="parallax-layer parallax-layer-main"> 
                     <div class="projects">
                         <h2>Projects</h2> 
@@ -148,29 +148,27 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hobbies">
+                    <div class="hobbies row">
                         <h2>Hobbies</h2>
-                        <div class="row hidden-xs">
-                            <div class="col-sm-2 col-sm-offset-1 dark">
-                                <img src="assets/code-icon2.png">
-                                <p>Coding</p>
-                            </div>
-                            <div class="col-sm-2 dark">
-                                <img src="assets/cooking-icon.png">
-                                <p>Cooking</p>
-                            </div>
-                            <div class="col-sm-2">
-                                <img src="assets/game-icon.png">
-                                <p>Games</p>
-                            </div>
-                            <div class="col-sm-2 medium">
-                                <img src="assets/sports-icon.png">
-                                <p>Sports</p>
-                            </div>
-                            <div class="col-sm-2 dark">
-                                <img src="assets/music-icon.png">
-                                <p>Music</p>
-                            </div>
+                        <div class="col-sm-2 col-sm-offset-1 dark">
+                            <img src="assets/code-icon2.png">
+                            <p>Coding</p>
+                        </div>
+                        <div class="col-sm-2 dark">
+                            <img src="assets/cooking-icon.png">
+                            <p>Cooking</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="assets/game-icon.png">
+                            <p>Games</p>
+                        </div>
+                        <div class="col-sm-2 medium">
+                            <img src="assets/sports-icon.png">
+                            <p>Sports</p>
+                        </div>
+                        <div class="col-sm-2 dark">
+                            <img src="assets/music-icon.png">
+                            <p>Music</p>
                         </div>
                     </div>
                     <div class="see-more">
@@ -190,31 +188,179 @@
                             </div>
                         </div>
                     </div>
-                    <div class="contact-me visible-xs">
-                        <h2>Contact Me</h2>
-                        <div class="row">
-                            <div class="col-xs-3 col-xs-offset-1 type">
-                                <h5>Email:</h5>
-                                <h5>Phone:</h5>
-                            </div>
-                            <div class="col-xs-6 col-xs-offset-1 information">
-                                <p>zaid.kassar@mail.utoronto.ca</p>
-                                <p>(647) 995-0612</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
+        
+        <!-- Mobile View -->
         <div class="mobile visible-xs">
-            <h2>Mobile Compatibility Coming Soon!</h2>
-            <h4>Check out my website on any screen wider than 768 pixels.</h4>
+            <div class="mobile-nav">
+                <a class="navbar-brand" href="index.html">Zaid Kassar</a>
+                <button class="mobile-dropdown-button"><i class="glyphicon glyphicon-th-list"></i></button>
+            </div>
+            <div class="mobile-dropdown-menu">
+                <a href="index.html"><h4 class="mobile-dropdown-text">Profile</h4></a>
+                <a href="contact.html"><h4 class="mobile-dropdown-text">Contact Me</h4></a>
+            </div>
+            <div class="mobile-main">
+                <div class="mobile-header">
+                    <h1>Zaid Kassar</h1>
+                    <h3>Software Engineering Student</h3>
+                    <h5>University of Toronto</h5>
+                </div>
+                <div class="mobile-title">
+                    <h2>Projects</h2> 
+                </div>
+                <div class="mobile-item mobile-project">
+                    <div class="mobile-item-title">
+                        <h4>Gesture More (Swift)</h4>
+                        <h5>Co-Founder</h5>
+                        <h5>Toronto, Ontario</h5>
+                    </div>
+                    <div class="mobile-item-body">
+                        <ul>
+                            <li>Co-founded and led development on a start-up with a team of 5</li>
+                            <li>Developed an iOS app incorporating multiple devices including Myo armband and Estimote Beacons</li>
+                            <li>End result used location tracking and gesture recognition to interact with objects in user&#8217;s surroundings using hands-free control</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobile-item mobile-project">
+                    <div class="mobile-item-title">
+                        <h4>Mapper (C++)</h4>
+                        <h5>Team Lead</h5>
+                        <h5>University of Toronto</h5>
+                    </div>
+                    <div class="mobile-item-body">
+                        <ul>
+                            <li>Led a team of 3 to creating a fully functioning mapping software targeted towards seniors</li>
+                            <li>User interface was designed for use-cases which involved accessibility needs as well as simplicity</li>
+                            <li>Included a path-finding algorithm which attempted to solve a variation of the travelling salesman problem</li>
+                            <li>Wrote multiple reports detailing research into UI, design decisions, and coding challenges</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobile-item mobile-project">
+                    <div class="mobile-item-title">
+                        <h4>Text Recognition (Assembly)</h4>
+                        <a href="https://github.com/Zaidkassar/Visual-Text-Recognition" target="_blank">
+                            <span>Link</span>
+                            <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                        </a>
+                        <h5>Team Member</h5>
+                       <h5>University of Toronto</h5>
+                    </div>
+                    <div class="mobile-item-body">
+                        <ul>
+                            <li>Worked in a team of 2 to develop a system to recognize numbers using a camera&#8217;s visual input</li>
+                            <li>End result could identify a number, including those with different written styles or minor mistakes, anywhere on within the camera&#8217;s frame and output the result to a written terminal</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobile-title">
+                    <h2>Work Experience</h2> 
+                </div>
+                <div class="mobile-item mobile-job">
+                    <div class="mobile-item-title">
+                        <h4>Data Analyst</h4>
+                        <h5>
+                            <a href="https://theex.com" target="_blank">Canadian National Exhibition</a>
+                        </h5>
+                        <h5>Toronto, Ontario</h5>
+                    </div>
+                    <div class="mobile-item-body">
+                        <ul>
+                            <li>Compared year-by-year income for multiple concessions along with auditors&#8217; reported income to identify incorrectly reported earnings</li>
+                            <li>Prepared separate daily reports for both internal auditors and management</li>
+                            <li>Helped plan and manage auditor targets and shifts</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobile-item mobile-job">
+                    <div class="mobile-item-title">
+                        <h4>Business Analyst & Recruiter</h4>
+                        <h5>
+                            <a href="https://wimp.com" target="_blank">Wimp.com</a>
+                        </h5>
+                        <h5>Toronto, Ontario</h5>
+                    </div>
+                    <div class="mobile-item-body">
+                        <ul>
+                            <li>Worked independently and as part of a team to accomplish founder&#8217;s goals including the search for a C-suite executive</li>
+                            <li>Profiled, searched for, and reached out to potential candidates</li>
+                            <li>Identified a candidate profile and submitted multiple executives for founder&#8217;s consideration</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobile-item mobile-job">
+                    <div class="mobile-item-title">
+                        <h4>Internal Auditor</h4>
+                        <h5>
+                            <a href="https://theex.com" target="_blank">Canadian National Exhibition</a>
+                        </h5>
+                        <h5>Toronto, Ontario</h5>
+                    </div>
+                    <div class="mobile-item-body">
+                        <ul>
+                            <li>Worked as a team to audit multiple concessions&#8217; incomes which were analyzed in comparison to their reported income</li>
+                            <li>Recorded results with up to 99.8% accuracy</li>
+                            <li>Caught multiple concessions recording incorrect income</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobile-title">
+                    <h2>Hobbies</h2> 
+                </div>
+                <div class="row">
+                <div class="mobile-hobbies dark col-xs-6">
+                    <img src="assets/code-icon2.png">
+                    <p>Coding</p>
+                </div>
+                <div class="mobile-hobbies dark col-xs-6">
+                    <img src="assets/cooking-icon.png">
+                    <p>Cooking</p>
+                </div>
+                </div>
+                <div class="row">
+                <div class="mobile-hobbies col-xs-6">
+                    <img src="assets/game-icon.png">
+                    <p>Games</p>
+                </div>
+                <div class="mobile-hobbies medium col-xs-6">
+                    <img src="assets/sports-icon.png">
+                    <p>Sports</p>
+                </div>
+                </div>
+                <div class="mobile-hobbies dark">
+                    <img src="assets/music-icon-no-background.gif">
+                    <p>Music</p>
+                </div>
+                <div class="mobile-title">
+                    <h2>See More</h2>
+                </div>
+                <div class="row mobile-see-more">
+                    <div class="col-xs-6">
+                        <a href="https://www.linkedin.com/in/zaidkassar" target="_blank">
+                            <img src="assets/linkedIn.jpg">
+                            <p>LinkedIn</p>
+                        </a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="https://github.com/Zaidkassar" target="_blank">
+                            <img src="assets/github.png">
+                            <p>Github</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <!-- Bootstrap -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        
+        <script src="script.js"></script>
         
     </body>
 </html>
