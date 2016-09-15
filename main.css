@@ -1,6 +1,6 @@
 .profile-picture{
     border-radius: 50%;
-    max-width: 280px;
+    max-width: 260px;
     max-height: 350px;
     margin: 70px auto 0 auto;
     display: block;
@@ -317,6 +317,6 @@ a:visited, a:target, a:hover, a:link, a:active{
 
 @media screen and (min-height: 1000px){
     .parallax-layer-main {
-        height: 2595px;
+        height: 2650px;
     }
 }
