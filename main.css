@@ -129,7 +129,7 @@ a:visited, a:target, a:hover, a:link, a:active{
 .contact{
     text-align: center;
     background-color: #FAFAD2;
-    margin: 20vh 25vw 0 25vw;
+    margin: 20vh 25% 0 25%;
     padding: 5vh 0;
     border-radius: 10px 10px 10px 10px;
     border-top: 3px solid #D8D8B0;
@@ -297,12 +297,6 @@ a:visited, a:target, a:hover, a:link, a:active{
     } 
 }
 
-@media screen and (max-width: 992px){
-    .contact{
-        margin: 20vh 30vh 0 30vh;
-    }
-}
-
 @media screen and (max-width: 940px){
     .parallax-layer-main {
         height: 2165px;
@@ -312,5 +306,17 @@ a:visited, a:target, a:hover, a:link, a:active{
 @media screen and (max-width: 890px){
     .parallax-layer-main {
         height: 2245px;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .parallax-layer-main {
+        height: 2345px;
+    }
+}
+
+@media screen and (min-height: 1000px){
+    .parallax-layer-main {
+        height: 2495px;
     }
 }
