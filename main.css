@@ -110,11 +110,11 @@ body{
     color: white;
 }
 
-.swift .fill{
-    width: 68%;
+.python .fill{
+    width: 72%;
 }
 
-.swift .fill:hover:after{
+.python .fill:hover:after{
     content: "print(\"Hello World\")";
     color: white;
 }
@@ -128,11 +128,11 @@ body{
     color: white;
 }
 
-.python .fill{
+.swift .fill{
     width: 57%;
 }
 
-.python .fill:hover:after{
+.swift .fill:hover:after{
     content: "print(\"Hello World\")";
     color: white;
 }
@@ -234,7 +234,7 @@ body{
     margin: 490px 6vw 30vh 6vw;
     padding: 5vh 0 10vh 0;
     border-radius: 10px;
-    height: 2340px;
+    height: 2590px;
     border-top: 4px solid #aaa;
 }
 
@@ -456,32 +456,32 @@ a:visited, a:target, a:hover, a:link, a:active{
     margin-bottom: 50px;
 }
 
-@media screen and (max-width: 1046px){
+@media screen and (max-width: 1165px){
     .parallax-layer-main {
-        height: 2440px;
+        height: 2790px;
     } 
 }
 
-@media screen and (max-width: 940px){
+@media screen and (max-width: 960px){
     .parallax-layer-main {
-        height: 2540px;
+        height: 2890px;
     }
 }
 
-@media screen and (max-width: 890px){
+@media screen and (max-width: 910px){
     .parallax-layer-main {
-        height: 2625px;
+        height: 2975px;
     }
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 830px){
     .parallax-layer-main {
-        height: 2725px;
+        height: 3175px;
     }
 }
 
 @media screen and (min-height: 1000px){
     .parallax-layer-main {
-        height: 3030px;
+        height: 3280px;
     }
 }
