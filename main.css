@@ -128,12 +128,12 @@ body{
     color: white;
 }
 
-.swift .fill{
+.java .fill{
     width: 57%;
 }
 
-.swift .fill:hover:after{
-    content: "print(\"Hello World\")";
+.java .fill:hover:after{
+    content: "System.out.println(\"Hello World\")";
     color: white;
 }
 
@@ -373,7 +373,7 @@ a:visited, a:target, a:hover, a:link, a:active{
     color: #000;
 }
 
-.mobile-project:nth-child(odd), .mobile-job:nth-child(odd){
+.mobile-project:nth-child(odd), .mobile-job:nth-child(even){
     background-color: white;
 }
 
