@@ -84,7 +84,7 @@ body{
 }
 
 .cpp .fill{
-    width: 82%;
+    width: 75%;
 }
 
 .cpp .fill:hover:after{
@@ -93,7 +93,7 @@ body{
 }
 
 .c .fill{
-    width: 80%;
+    width: 72%;
 }
 
 .c .fill:hover:after{
@@ -101,8 +101,17 @@ body{
     color: white;
 }
 
+.c-sharp .fill{
+    width: 68%;
+}
+
+.c-sharp .fill:hover:after{
+    content: "Console.WriteLine(\"Hello World!\");";
+    color: white;
+}
+
 .html .fill{
-    width: 75%;
+    width: 72%;
 }
 
 .html .fill:hover:after{
@@ -111,7 +120,7 @@ body{
 }
 
 .python .fill{
-    width: 72%;
+    width: 60%;
 }
 
 .python .fill:hover:after{
@@ -129,7 +138,7 @@ body{
 }
 
 .java .fill{
-    width: 57%;
+    width: 72%;
 }
 
 .java .fill:hover:after{
@@ -138,7 +147,7 @@ body{
 }
 
 .assembly .fill{
-    width: 52%;
+    width: 30%;
 }
 
 .assembly .fill:hover:after{
@@ -147,7 +156,7 @@ body{
 }
 
 .verilog .fill{
-    width: 50%
+    width: 26%
 }
 
 .verilog .fill:hover:after{
@@ -229,13 +238,16 @@ body{
 
 .parallax-layer-main {
     transform: translateZ(0);
-    text-align: center;
+}
+
+.background {
     background-color: white;
-    margin: 490px 6vw 30vh 6vw;
+    margin: 490px 6vw 0 6vw;
     padding: 5vh 0 10vh 0;
+	margin-bottom: 30vh;
     border-radius: 10px;
-    height: 2590px;
     border-top: 4px solid #aaa;
+    text-align: center;
 }
 
 img {
@@ -454,34 +466,4 @@ a:visited, a:target, a:hover, a:link, a:active{
 
 .mobile-contact-me h3{
     margin-bottom: 50px;
-}
-
-@media screen and (max-width: 1165px){
-    .parallax-layer-main {
-        height: 2790px;
-    } 
-}
-
-@media screen and (max-width: 960px){
-    .parallax-layer-main {
-        height: 2890px;
-    }
-}
-
-@media screen and (max-width: 910px){
-    .parallax-layer-main {
-        height: 2975px;
-    }
-}
-
-@media screen and (max-width: 830px){
-    .parallax-layer-main {
-        height: 3175px;
-    }
-}
-
-@media screen and (min-height: 1000px){
-    .parallax-layer-main {
-        height: 3280px;
-    }
 }
