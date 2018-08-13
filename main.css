@@ -147,7 +147,7 @@ body{
 }
 
 .assembly .fill{
-    width: 30%;
+    width: 40%;
 }
 
 .assembly .fill:hover:after{
@@ -156,7 +156,7 @@ body{
 }
 
 .verilog .fill{
-    width: 26%
+    width: 38%
 }
 
 .verilog .fill:hover:after{
